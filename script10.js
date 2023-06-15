@@ -146,7 +146,7 @@ while(flag) {
 // while (i > 0)
 
 
-const number = +prompt('Введите число: ');
+const number = +prompt('Введите загаданное число: ');
 let random =  Math.round(Math.random() * 9 + 1)
 
 if (Number.isNaN(number)){
